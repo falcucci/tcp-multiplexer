@@ -61,7 +61,7 @@ ACK:MESSAGE
 MESSAGE:62090 REPLY
 ```
 
-In case you use [Zellij](https://zellij.dev/documentation/overview) and want to automatize its setup, thers is a [layout](./layout/zellij.kdl) available:
+In case you use [Zellij](https://zellij.dev/documentation/overview) and want to automatize its setup, there is a [layout](./layout/zellij.kdl) available:
 
 ```bash
 layout {
