@@ -4,8 +4,6 @@
 
 _A Single-threaded Asyncronous TCP Multiplexer._
 
-## how it works
-
 ### Example: connecting a client using `netcat`
 
 </div>
