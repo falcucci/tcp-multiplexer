@@ -44,8 +44,6 @@ nc -v 127.0.0.1 27632
 nc -v 127.0.0.1 27632
 ```
 
-And you should see the following output:
-
 ```bash
 # john
 nc -v 127.0.0.1 27632
