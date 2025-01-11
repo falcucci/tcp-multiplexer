@@ -8,7 +8,13 @@ _A Single-threaded Asyncronous TCP Multiplexer._
 
 </div>
 
-First, ensure that your TCP Multiplexer server is running. You can start the server by executing the main function in your Rust application:
+Clone this repository:
+
+```bash
+git clone git@github.com:falcucci/tcp-multiplexer.git
+```
+
+### Running the server
 
 ```bash
 cargo run -- server
