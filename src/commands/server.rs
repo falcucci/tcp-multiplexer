@@ -26,7 +26,6 @@ pub async fn setup() -> miette::Result<()> {
 
     // Create channel shared among all clients that connect to the server loop.
     let (tx, _) = broadcast::channel::<Message>(10);
-
     loop {
         match listener.accept().await {
             Ok((stream, addr)) => {
