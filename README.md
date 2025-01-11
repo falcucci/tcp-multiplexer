@@ -20,7 +20,18 @@ cargo run -- server
 
 Open a new terminal window and use the following command to connect to the server using `nc`:
 
+```bash
+# alice
+nc -v 127.0.0.1 27632
 ```
+
+```bash
+# bob
+nc -v 127.0.0.1 27632
+```
+
+```bash
+# john
 nc -v 127.0.0.1 27632
 ```
 
