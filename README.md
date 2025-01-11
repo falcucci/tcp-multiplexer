@@ -8,8 +8,6 @@ _A Single-threaded Asyncronous TCP Multiplexer._
 
 </div>
 
-Clone this repository:
-
 ```bash
 git clone git@github.com:falcucci/tcp-multiplexer.git
 ```
