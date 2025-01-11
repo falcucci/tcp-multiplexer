@@ -1,0 +1,20 @@
+layout {
+  pane name="tcp-multiplexer-server" {
+    command "cargo"
+    args "run" "--" "server"
+  }
+  pane split_direction="vertical" {
+    pane   name="alice" start_suspended=true {
+      command "nc" 
+      args "-v" "127.0.0.1" "27632"
+    }
+    pane name="bob" start_suspended=true {
+      command "nc" 
+      args "-v" "127.0.0.1" "27632"
+    }
+    pane name="john" start_suspended=true {
+      command "nc" 
+      args "-v" "127.0.0.1" "27632"
+    }
+  }
+}
