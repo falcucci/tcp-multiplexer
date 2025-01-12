@@ -8,7 +8,7 @@ _A Single-threaded Asyncronous TCP Multiplexer._
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/ec69466a-696a-440f-a3d2-09b702213e9e" alt="Screenshot of the network">
-    <em>Screenshot of the network sampling conneted peers.</em>
+    <em>Screenshot of the network sampling connected peers.</em>
 </div>
 
 ### Running the server
